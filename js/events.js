@@ -8,9 +8,13 @@ function getIt(){
 
 function frameIt(){
   $('img').on('load', function(){
-    $('img').tasty
+    append.tasty
     return
   })
+}
+
+function pressIt(){
+  
 }
 
 $(document).ready(function(){
