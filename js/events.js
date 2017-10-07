@@ -14,7 +14,12 @@ function frameIt(){
 }
 
 function pressIt(){
-
+  $(document).on('keydown', function(key){
+    if(key.key == 71){
+      alert("You have pressed the 'g' key")
+      return
+    }
+  })
 }
 
 $(document).ready(function(){
